@@ -1,0 +1,45 @@
+{
+  "name": "whatsapp-web.js-handler",
+  "version": "1.2.0",
+  "description": "Whatsapp-web.js handler.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i",
+    "start": "npm run run && npm run fm",
+    "start:dev": "npm run run:dev && npm run fm",
+    "start:nofm": "npm run run",
+    "start:dev:nofm": "npm run run:dev",
+    "run:dev": "nodemon index.js",
+    "run": "node index.js",
+    "fm": "prettier --write ."
+  },
+  "engines": {
+    "node": "^17.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scoooolz/whatsapp-web.js-handler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pedroslopez/whatsapp-web.js-handler/issues"
+  },
+  "keywords": [
+    "puppeteer",
+    "whatsapp-webjs",
+    "whatsapp",
+    "whatsapp-web"
+  ],
+  "author": "Scoooolzs",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/collection": "^0.6.0",
+    "host-checker": "^1.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.16.6"
+  },
+  "devDependencies": {
+    "node": "^16.6.1",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
